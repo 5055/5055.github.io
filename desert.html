@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> informatica ofzo </title>
+  <link href="desert.css" type="text/css" rel="stylesheet">
+  <script src="desert.js"></script>
+</head>
+<body>
+  <div class ="stad"
+   id="stad">
+           <div class = "stadhuisbinnen" id="stadhuisbinnen" onclick="myFunctionstadhuisbinnen()" onclick"activekey()"></div>
+    <div class="richtingBalk">
+      <a>
+        <img src="richting balk.png" height="100%" width="100%">
+        </a>
+        <div class="minimap"  onclick="myFunctionkaart()">
+          <a>
+            <img src="minimap.png" height="100%" width="100%">
+            </a>
+          </div>
+        <div class="desert3" onclick="myFunctionwoonwijken()"  href="desert3.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">woonwijken</font></center></p>
+        </div>
+
+        <div class="desert2" onclick="myFunctionmarkt()" >
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">markt</font></center></p>
+        </div>
+        <div class="desert1" onclick="myFunctionstadhuis()"  href="desert1.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">stadhuis</font></center></p></div>
+          <div class= "kaartmessage" id="kaartmessage"><center><p style="font-size:30px"><font color="FFFFFF">Are you sure about leaving</font></p>
+            <a href="kaart.html" class= "yeahbutton">
+              <center><p style="font-size:30px"><font color="White">Yeah</font></center></p>
+            </a>
+            <div class= "nahbutton" onclick="myFunctionkaart()">
+                <center><p style="font-size:30px"><font color="White">Nah</font></center></p>
+            </div>
+          </center>
+        </div>
+
+    </div>
+      <div class="stadhuisbuiten"
+        id="stadhuisbuiten">
+        <div id="desertM1"class="desertM1" onclick="myFunctionM1()"></div>
+        <div class="desertM2" onclick="myFunctionM2()"></div>
+        <div class="desertM3" onclick="myFunctionM3()"></div>
+      </div>
+      <div class="marktbuiten"
+        id="marktbuiten">
+        <div id="desertM4"class="desertM4" onclick="myFunctionM4()"></div>
+      </div>
+      <div class="woonwijkenbuiten"
+        id="woonwijkenbuiten">
+        <div class="desertM7" onclick="myFunctionM7()"></div>
+        <div class="desertM8" onclick="myFunctionM8()"></div>
+        </div>
+  </div>
+  <div class ="text">
+    <div class = "textM1" id=textM1 onclick="myfunctionreturnM1()"><p style="font-size:30px"><font color="FFFFFF">Ik zag hem! De heilige Moorie Moorie ik voelde de bytes door mij heen vloeien.</font></center></p></div>
+    <div class = "textM2" id=textM2 onclick="myfunctionreturnM2()"><p style="font-size:30px"><font color="FFFFFF">Ik heb hier geen woorden voor...</font></center></p></div>
+    <div class = "textM3" id=textM3 onclick="myfunctionreturnM3()"><p style="font-size:30px"><font color="FFFFFF">Dit is de beste tijd van mijn leven. Ik heb met mijn eigen ogen Moorie Moorie gezien.</font></center></p></div>
+    <div class = "textM4" id=textM4 onclick="myfunctionreturnM4()"><p style="font-size:30px"><font color="FFFFFF">Genoeg skoomrika's voor iedereen!</font></center></p></div>
+    <div class = "textM5" id=textM5 onclick="myfunctionreturnM5()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM6" id=textM6 onclick="myfunctionreturnM6()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM7" id=textM7 onclick="myfunctionreturnM7()"><p style="font-size:30px"><font color="FFFFFF">Heb je het al gehoord, heilige Moorie Moorie heeft onze stad bezocht.</font></center></p></div>
+    <div class = "textM8" id=textM8 onclick="myfunctionreturnM8()"><p style="font-size:30px"><font color="FFFFFF">Wat? Heeft de heillige Moorie Moorie ons bezocht?!</font></center></p></div>
+    <div class = "textM9" id=textM9 onclick="myfunctionreturnM9()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+  </div>
+  <div class="KM"id='KM' >
+    <div class="KMfake" id="KMfake">
+      <div class="KMfake1" id="KMfake1"></div>
+      <div class="KMfake2" id="KMfake1"></div>
+      <div class="KMfake3" id="KMfake1"></div>
+      <div class="KMfake4" id="KMfake1"></div>
+      <div class="KMfake5" id="KMfake1"></div>
+      <div class="KMfake6" id="KMfake1"></div>
+      <div class="KMfake7" id="KMfake1"></div>
+      <div class="KMfake8" id="KMfake1"></div>
+      <div class="KMfake9" id="KMfake1"></div>
+      <div class="KMfake10" id="KMfake1"></div>
+      <div class="KMfake11" id="KMfake1"></div>
+      <div class="KMfake12" id="KMfake1"></div>
+      <div class="KMfake13" id="KMfake1"></div>
+      <div class="KMfake14" id="KMfake1"></div>
+    </div>
+    <div class="KMmuur" id="KMmuur">
+      <div class="KMmuur1"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur2"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur3"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur4"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur5"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur6"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur7"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur8"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur9"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur10"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur11"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur12"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur13"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur14"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur15"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur16"id="KMmuur1"onmousemove="KMfail()"></div>
+      <div class="KMmuur17"id="KMmuur1"onmousemove="KMwin()"></div>
+      <div class="KMwin" onmousemove="KMwin()"></div>
+    </div>
+    <div class= "KMreset"  onclick="KMreset()" style=""><center><p style="font-size:30px"><font color="FFFFFF">Reset</font></p><center></div>
+  <div class="KMover" id="KMover"></div>
+  <div class="key"id="key">  <a>
+      <img src="key.png" height="100%" width="100%">
+      </a>
+    </div>
+</div>
+</body>
+</html>

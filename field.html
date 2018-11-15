@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> informatica ofzo </title>
+  <link href="field.css" type="text/css" rel="stylesheet">
+  <script src="field.js"></script>
+</head>
+<body onload="myfunctionload()">
+  <div class ="stad"
+   id="stad">
+           <div class = "stadhuisbinnen" id="stadhuisbinnen" onclick="myFunctionstadhuisbinnen()"></div>
+    <div class="richtingBalk">
+      <a>
+        <img src="richting balk.png" height="100%" width="100%">
+        </a>
+        <div class="minimap"  onclick="myFunctionkaart()">
+          <a>
+            <img src="minimap.png" height="100%" width="100%">
+            </a>
+          </div>
+        <div class="field3" onclick="myFunctionwoonwijken()"  href="field3.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">woonwijken</font></center></p>
+        </div>
+
+        <div class="field2" onclick="myFunctionmarkt()" >
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">markt</font></center></p>
+        </div>
+        <div class="field1" onclick="myFunctionstadhuis()"  href="field1.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">stadhuis</font></center></p></div>
+          <div class= "kaartmessage" id="kaartmessage"><center><p style="font-size:30px"><font color="FFFFFF">Are you sure about leaving</font></p>
+            <a href="kaart.html" class= "yeahbutton">
+              <center><p style="font-size:30px"><font color="White">Yeah</font></center></p>
+            </a>
+            <div class= "nahbutton" onclick="myFunctionkaart()">
+                <center><p style="font-size:30px"><font color="White">Nah</font></center></p>
+            </div>
+          </center>
+        </div>
+
+    </div>
+      <div class="stadhuisbuiten"
+        id="stadhuisbuiten">
+        <div class="fieldM1" onclick="myFunctionM1()"></div>
+        <div class="fieldM2" onclick="myFunctionM2()"></div>
+        <div class="fieldM3" onclick="myFunctionM3()"></div>
+      </div>
+      <div class="marktbuiten"
+        id="marktbuiten">
+        <div class="fieldM4" onclick="myFunctionM4()"></div>
+        <div class="fieldM5" onclick="myFunctionM5()"></div>
+        <div class="fieldM6" onclick="myFunctionM6()"></div>
+      </div>
+      <div class="woonwijkenbuiten"
+        id="woonwijkenbuiten">
+        <div class="fieldM7" onclick="myFunctionM7()"></div>
+        <div class="fieldM8" onclick="myFunctionM8()"></div>
+        <div class="fieldM9" onclick="myFunctionM9()"></div>
+        </div>
+  </div>
+  <div class ="text">
+    <div class = "textM1" id=textM1 onclick="myfunctionreturnM1()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM2" id=textM2 onclick="myfunctionreturnM2()"><p style="font-size:30px"><font color="FFFFFF">Wat houd ik toch van deze provincie, het is zo rustig.</font></center></p></div>
+    <div class = "textM3" id=textM3 onclick="myfunctionreturnM3()"><p style="font-size:30px"><font color="FFFFFF">Lang leve Moorie Moorie!!</font></center></p></div>
+    <div class = "textM4" id=textM4 onclick="myfunctionreturnM4()"><p style="font-size:30px"><font color="FFFFFF">Helaas is de oorlog tussen de Gronims en Gernim nog niet over en nu hebben we een skoomrika tekort op de markt.</font></center></p></div>
+    <div class = "textM5" id=textM5 onclick="myfunctionreturnM5()"><p style="font-size:30px"><font color="FFFFFF">Wat is het toch een mooie dag.</font></center></p></div>
+    <div class = "textM6" id=textM6 onclick="myfunctionreturnM6()"><p style="font-size:30px"><font color="FFFFFF">Ugh..,nog steeds geen skoomrika's op de markt. Ik haat het dat de Germins de skoomrika's niet aan Gronims verhandelen.</font></center></p></div>
+    <div class = "textM7" id=textM7 onclick="myfunctionreturnM7()"><p style="font-size:30px"><font color="FFFFFF"></font></center></p></div>
+    <div class = "textM8" id=textM8 onclick="myfunctionreturnM8()"><p style="font-size:30px"><font color="FFFFFF">Een baard is een must de regels van Moorie Moorie.</font></center></p></div>
+    <div class = "textM9" id=textM9 onclick="myfunctionreturnM9()"><p style="font-size:30px"><font color="FFFFFF">Volgens mij was de 77854256775543788765423566435678765455687564456798653567898654322245677654223567765323356543355688765454675456776757754346633134666542323 een code, maar ik weet het niet zeker.</font></center></p></div>
+  </div>
+  <div class= "inputtextbox"
+   id =inputtextbox ><div class= "textinstadhuis1"><p  style="font-size:30px"><font color="FFFFFF">Er moet buiten ergens iemand zijn met de code.</font></center></p></div>
+    <div class="naar_buiten" id="naar_buiten"onclick="naar_buiten()"><center><p style="font-size:30px"><font color="FFFFFF">Buiten</font></p></center></div>
+    <form id="form" onsubmit="return false;">
+    <input style="font-size:30px" class="input" type="text" id="userInput" />
+    <input style="font-size:30px" class="enterinput" type="submit" onclick="othername();" />
+</form></div>
+</body>
+</html>

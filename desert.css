@@ -1,0 +1,684 @@
+html {
+  overflow:hidden;
+}a {text-decoration: none; }
+.desert1{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 23.4%;
+  cursor: pointer;
+
+  }
+.desert2{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 2.3%;
+  cursor: pointer;
+
+}
+.desert3{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 44.5%;
+  cursor: pointer;
+
+}
+.stad{
+  display: block;
+}
+.stadhuisbuiten{
+  display: block;
+}
+.marktbuiten{
+  display: none;
+}
+.woonwijkenbuiten{
+  display: none;
+}
+.desertM1{
+  height: 17.5%;
+  width: 6%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  cursor: pointer;
+}
+.desertM2{
+  height: 12.5%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 58.5%;
+  left: 70%;
+  cursor: pointer;
+
+}
+.desertM3{
+  height: 15.5%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 67.5%;
+  left: 78.5%;
+  cursor: pointer;
+
+}
+.desertM4{
+  height: 23%;
+  width: 7%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 59.5%;
+  left: 25%;
+  cursor: pointer;
+
+}
+.desertM5{
+  height: 24.5%;
+  width: 7%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 60%;
+  left: 35.5%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,0.9);
+
+}
+.desertM6{
+  height: 25.5%;
+  width: 6%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 60%;
+  left: 66.7%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.desertM7{
+  height: 20%;
+  width: 7%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 64%;
+  left: 16%;
+  cursor: pointer;
+
+}
+.desertM8{
+  height: 17%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 61%;
+  left: 56.5%;
+  cursor: pointer;
+
+}
+.desertM9{
+  height: 8.5%;
+  width: 2.5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 62%;
+  left: 94.5%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.textM1{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM2{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM3{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM4{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM5{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM6{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM7{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM8{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM9{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.stadhuisbinnen{
+  height: 50%;
+  width: 25%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 20%;
+  left: 36.125%;
+  cursor: pointer;
+}
+.richtingBalk{
+  height: 30%;
+  width: 100%;
+  position:absolute;
+  top: 70%;
+  left: 0%;
+
+
+}
+.minimap{
+  height: 80%;
+  width: 12%;
+  border: 0px #FFF;
+  position:absolute;
+  top: 20%;
+  right: 0%;
+  background-color: rgba(030,030,030,0.9);
+}
+.kaartmessage{
+  height: 80%;
+  width: 60%;
+  position:absolute;
+  top: -120%;
+  right: 20%;
+  background-color: rgba(030,030,030,0.9);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  display: none;
+}
+.yeahbutton{
+  height: 40%;
+  width: 20%;
+  position:absolute;
+  top: 70%;
+  right: 55%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.nahbutton{
+  height: 40%;
+  width: 20%;
+  position:absolute;
+  top: 70%;
+  left: 55%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.inputtextbox{
+  height: 99%;
+  width: 20%;
+  position:absolute;
+  top: 0%;
+  right: 0%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.input{
+  height: 20%;
+  width: 100%;
+  position:absolute;
+  top: 70%;
+  left: 0%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.enterinput{
+  height: 10%;
+  width: 100%;
+  position:absolute;
+  top: 90%;
+  left: 0%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.textinstadhuis1{
+
+}
+.naar_buiten{
+  height: 10%;
+  width: 100%;
+  position:absolute;
+  top: 90%;
+  right: 100%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+}
+.KM{
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0%;
+  left: 0%;
+  display: none;
+}
+.KMmuur{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  border-radius: 12px;
+
+}
+.KMmuur1{
+  height: 100%;
+  width: 10%;
+  position:absolute;
+  top: 0%;
+  left: 0%;
+  cursor: pointer;
+
+}
+.KMmuur2{
+  height: 50%;
+  width: 12%;
+  position:absolute;
+  top: 0%;
+  left: 12%;
+  cursor: pointer;
+
+}
+.KMmuur3{
+  height: 47%;
+  width: 12%;
+  position:absolute;
+  top: 53%;
+  left: 10%;
+  cursor: pointer;
+
+}
+.KMmuur4{
+  height: 80%;
+  width: 10%;
+  position:absolute;
+  top: 0%;
+  left: 24%;
+
+  cursor: pointer;
+}
+.KMmuur5{
+  height: 18%;
+  width: 14%;
+  position:absolute;
+  top: 82%;
+  left: 22%;
+  cursor: pointer;
+
+}
+.KMmuur6{
+  height: 73%;
+  width: 10%;
+  position:absolute;
+  top: 27%;
+  left:36%;
+  cursor: pointer;
+
+}
+.KMmuur7{
+  height: 25%;
+  width: 14%;
+  position:absolute;
+  top: 0%;
+  left: 34%;
+  cursor: pointer;
+
+}
+.KMmuur8{
+  height: 40%;
+  width: 12%;
+  position:absolute;
+  top: 0%;
+  left: 48%;
+  cursor: pointer;
+
+}
+.KMmuur9{
+  height: 57%;
+  width: 12%;
+  position:absolute;
+  top: 43%;
+  left: 46%;
+  cursor: pointer;
+
+}
+.KMmuur10{
+  height: 80%;
+  width: 10%;
+  position:absolute;
+  top: 0%;
+  left: 60%;
+  cursor: pointer;
+
+}
+.KMmuur11{
+  height: 18%;
+  width: 14%;
+  position:absolute;
+  top: 82%;
+  left: 58%;
+  cursor: pointer;
+
+}
+.KMmuur12{
+  height: 49%;
+  width: 10%;
+  position:absolute;
+  top: 51%;
+  left: 72%;
+  cursor: pointer;
+
+}
+.KMmuur13{
+  height: 49%;
+  width: 12%;
+  position:absolute;
+  top: 0%;
+  left: 70%;
+  cursor: pointer;
+
+}
+.KMmuur14{
+  height: 30%;
+  width: 18%;
+  position:absolute;
+  top: 0%;
+  left: 82%;
+  cursor: pointer;
+
+}
+.KMmuur15{
+  height: 100%;
+  width: 10%;
+  position:absolute;
+  top: 0%;
+  left: 90%;
+  cursor: pointer;
+
+}
+.KMmuur16{
+  height: 30%;
+  width: 18%;
+  position:absolute;
+  top: 70%;
+  left: 82%;
+  cursor: pointer;
+}
+.KMmuur17{
+  height: 40%;
+  width: 9%;
+  position:absolute;
+  top: 30%;
+  left: 81%;
+}
+.KMover{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 19.2%;
+  left: 50.1%;
+  background-color: rgba(130,130,130,01);
+  border-radius: 12px;
+  display: none;
+}
+.KMfake{
+    height: 40%;
+    width: 30%;
+    position:absolute;
+    top: 19.2%;
+    left: 50.1%;
+    background-color: rgba(130,130,130,01);
+}
+.KMfake1{
+  height: 49%;
+  width: 11%;
+  position:absolute;
+  top: 0%;
+  left: 8.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake2{
+  height: 5%;
+  width: 16%;
+  position:absolute;
+  top: 49%;
+  left: 8.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake3{
+  height: 34%;
+  width: 11%;
+  position:absolute;
+  top: 49%;
+  left: 20.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake4{
+  height: 5%;
+  width: 14%;
+  position:absolute;
+  top: 78%;
+  left: 22.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake5{
+  height: 59%;
+  width: 11%;
+  position:absolute;
+  top: 24%;
+  left: 33%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake6{
+  height: 5%;
+  width: 11%;
+  position:absolute;
+  top: 24%;
+  left: 36%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake7{
+  height: 20%;
+  width: 11%;
+  position:absolute;
+  top: 24%;
+  left: 45%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake8{
+  height: 5%;
+  width: 11%;
+  position:absolute;
+  top: 39%;
+  left: 48%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake9{
+  height: 44%;
+  width: 11%;
+  position:absolute;
+  top: 39%;
+  left: 56.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake10{
+  height: 5%;
+  width: 11%;
+  position:absolute;
+  top: 78%;
+  left: 60%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake11{
+  height: 35%;
+  width: 11%;
+  position:absolute;
+  top: 48%;
+  left: 68.5%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake12{
+  height: 5%;
+  width: 11%;
+  position:absolute;
+  top: 78%;
+  left: 60%;
+  background-color: rgba(030,030,130,01);
+}
+.KMfake13{
+  height: 42%;
+  width: 15%;
+  position:absolute;
+  top: 29%;
+  left: 81%;
+  background-color: rgba(130,030,030,01);
+}
+.KMfake14{
+  height: 5%;
+  width: 11%;
+  position:absolute;
+  top: 48%;
+  left: 71%;
+  background-color: rgba(030,030,130,01);
+}
+.KMwin{
+  height: 40%;
+  width: 15%;
+  position:absolute;
+  top: 29%;
+  left: 81%;
+
+}
+.KMreset{
+  height: 10%;
+  width: 30%;
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  cursor: pointer;
+  border-radius: 18px;
+
+}
+.key{
+  height: 1%;
+  width: 3%;
+  position:absolute;
+  left: 50%;
+  margin:0;
+}

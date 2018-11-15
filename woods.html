@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> informatica ofzo </title>
+  <link href="woods.css" type="text/css" rel="stylesheet">
+  <script src="woods.js"></script>
+</head>
+<body onload="myfunctionload()">
+  <div class ="stad"
+   id="stad">
+           <div class = "stadhuisbinnen" id="stadhuisbinnen" onclick="myFunctionstadhuisbinnen()"></div>
+    <div class="richtingBalk">
+      <a>
+        <img src="richting balk.png" height="100%" width="100%">
+        </a>
+        <div class="minimap"  onclick="myFunctionkaart()">
+          <a>
+            <img src="minimap.png" height="100%" width="100%">
+            </a>
+          </div>
+        <div class="woods3" onclick="myFunctionwoonwijken()"  href="woods3.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">woonwijken</font></center></p>
+        </div>
+
+        <div class="woods2" onclick="myFunctionmarkt()" >
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">markt</font></center></p>
+        </div>
+        <div class="woods1" onclick="myFunctionstadhuis()"  href="woods1.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">stadhuis</font></center></p></div>
+          <div class= "kaartmessage" id="kaartmessage"><center><p style="font-size:30px"><font color="FFFFFF">Are you sure about leaving</font></p>
+            <a href="kaart.html" class= "yeahbutton">
+              <center><p style="font-size:30px"><font color="White">Yeah</font></center></p>
+            </a>
+            <div class= "nahbutton" onclick="myFunctionkaart()">
+                <center><p style="font-size:30px"><font color="White">Nah</font></center></p>
+            </div>
+          </center>
+        </div>
+
+    </div>
+      <div class="stadhuisbuiten"
+        id="stadhuisbuiten">
+        <div class="woodsM1" onclick="myFunctionM1()"></div>
+        <div class="woodsM2" onclick="myFunctionM2()"></div>
+        <div class="woodsM3" onclick="myFunctionM3()"></div>
+      </div>
+      <div class="marktbuiten"
+        id="marktbuiten">
+        <div class="woodsM4" onclick="myFunctionM4()"></div>
+      </div>
+      <div class="woonwijkenbuiten"
+        id="woonwijkenbuiten">
+        <div class="woodsM7" onclick="myFunctionM7()"></div>
+        </div>
+  </div>
+  <div class ="text">
+    <div class = "textM1" id=textM1 onclick="myfunctionreturnM1()"><p style="font-size:30px"><font color="FFFFFF">De Gronims denken dat wij hun skoomrika's hebben, maar hun skoomrika's rijn gekaapt door de mensen uit de Nimrods desert.</font></center></p></div>
+    <div class = "textM2" id=textM2 onclick="myfunctionreturnM2()"><p style="font-size:30px"><font color="FFFFFF">Dit is mijn eerste keer in het zuiden, het is hier mooi zeg!</font></center></p></div>
+    <div class = "textM3" id=textM3 onclick="myfunctionreturnM3()"><p style="font-size:30px"><font color="FFFFFF">Die verotten Gronims toch, altijd ruzie zoeken.</font></center></p></div>
+    <div class = "textM4" id=textM4 onclick="myfunctionreturnM4()"><p style="font-size:30px"><font color="FFFFFF">Waar is mijn fruit gebleven?! ag ja ik heb te minste mijn skoomrika's nog.</font></center></p></div>
+    <div class = "textM5" id=textM5 onclick="myfunctionreturnM5()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM6" id=textM6 onclick="myfunctionreturnM6()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM7" id=textM7 onclick="myfunctionreturnM7()"><p style="font-size:30px"><font color="FFFFFF">Volgen mij stelen die Gronims mijn hele huis leeg!</font></center></p></div>
+    <div class = "textM8" id=textM8 onclick="myfunctionreturnM8()"><p style="font-size:30px"><font color="FFFFFF"></font></center></p></div>
+    <div class = "textM9" id=textM9 onclick="myfunctionreturnM9()"><p style="font-size:30px"><font color="FFFFFF"></font></center></p></div>
+  </div>
+  <div class= "BkE_file"id="BkE_file">
+    <div class="BkE">
+      <div class= "BkEbutton" id="BkEbutton1" onclick="BkEbuttonone()" style=""></div>
+      <div class= "BkEbutton" id="BkEbutton2" onclick="BkEbuttontwo()" style="left:34%;"></div>
+      <div class= "BkEbutton" id="BkEbutton3" onclick="BkEbuttonthree()" style="left:68%;"></div>
+      <div class= "BkEbutton" id="BkEbutton4" onclick="BkEbuttonfour()" style="top:34%;"></div>
+      <div class= "BkEbutton" id="BkEbutton5" onclick="BkEbuttonfive()" style="left:34%;top:34%;"></div>
+      <div class= "BkEbutton" id="BkEbutton6" onclick="BkEbuttonsix()" style="left:68%;top:34%;"></div>
+      <div class= "BkEbutton" id="BkEbutton7" onclick="BkEbuttonseven()" style="top:68%;"></div>
+      <div class= "BkEbutton" id="BkEbutton8" onclick="BkEbuttoneight()" style="left:34%;top:68%"></div>
+      <div class= "BkEbutton" id="BkEbutton9" onclick="BkEbuttonnine()" style="left:68%;top:68%"></div>
+    </div>
+    <div class= "BkEreset"  onclick="reset()" style=""><center><p style="font-size:30px"><font color="FFFFFF">Reset</font></p><center></div>
+    <div class= "BkEwin"  id="BkEwin" style="">47 65 65 6e 20 6e 75 74 74 69 67 65 20 63 6f 64 65 20 3a 29</div>
+    <div class= "BkElose"  id="BkElose" style=""></div>
+  </div>
+</body>
+</html>

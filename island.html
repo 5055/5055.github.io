@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> informatica ofzo </title>
+  <link href="island.css" type="text/css" rel="stylesheet">
+  <script src="island.js"></script>
+  <script src="snake.js"></script>
+</head>
+<body onload="myfunctionload()">
+  <div class ="stad"
+   id="stad">
+           <div class = "stadhuisbinnen" id="stadhuisbinnen" onclick="myFunctionstadhuisbinnen()"></div>
+    <div class="richtingBalk">
+      <a>
+        <img src="richting balk.png" height="100%" width="100%">
+        </a>
+        <div class="minimap"  onclick="myFunctionkaart()">
+          <a>
+            <img src="minimap.png" height="100%" width="100%">
+            </a>
+          </div>
+        <div class="island3" onclick="myFunctionwoonwijken()"  href="island3.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">woonwijken</font></center></p>
+        </div>
+
+        <div class="island2" onclick="myFunctionmarkt()" >
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">markt</font></center></p>
+        </div>
+        <div class="island1" onclick="myFunctionstadhuis()"  href="island1.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">stadhuis</font></center></p></div>
+          <div class= "kaartmessage" id="kaartmessage"><center><p style="font-size:30px"><font color="FFFFFF">Are you sure about leaving</font></p>
+            <a href="kaart.html" class= "yeahbutton">
+              <center><p style="font-size:30px"><font color="White">Yeah</font></center></p>
+            </a>
+            <div class= "nahbutton" onclick="myFunctionkaart()">
+                <center><p style="font-size:30px"><font color="White">Nah</font></center></p>
+            </div>
+          </center>
+        </div>
+
+    </div>
+      <div class="stadhuisbuiten"
+        id="stadhuisbuiten">
+        <div class="islandM1" onclick="myFunctionM1()"></div>
+        <div class="islandM2" onclick="myFunctionM2()"></div>
+        <div class="islandM3" onclick="myFunctionM3()"></div>
+      </div>
+      <div class="marktbuiten"
+        id="marktbuiten">
+        <div class="islandM4" onclick="myFunctionM4()"></div>
+        <div class="islandM5" onclick="myFunctionM5()"></div>
+        <div class="islandM6" onclick="myFunctionM6()"></div>
+      </div>
+      <div class="woonwijkenbuiten"
+        id="woonwijkenbuiten">
+        <div class="islandM7" onclick="myFunctionM7()"></div>
+        <div class="islandM8" onclick="myFunctionM8()"></div>
+        <div class="islandM9" onclick="myFunctionM9()"></div>
+        </div>
+  </div>
+  <div class ="text">
+    <div class = "textM1" id=textM1 onclick="myfunctionreturnM1()"><p style="font-size:30px"><font color="FFFFFF">Wow, ik ben nog nooit in de hoofdstad geweest.</font></center></p></div>
+    <div class = "textM2" id=textM2 onclick="myfunctionreturnM2()"><p style="font-size:30px"><font color="FFFFFF">Lang leve Moorie Moorie!!</font></center></p></div>
+    <div class = "textM3" id=textM3 onclick="myfunctionreturnM3()"><p style="font-size:30px"><font color="FFFFFF">Ik heb de kathedraal nog nooit in levendelijden gezien</font></center></p></div>
+    <div class = "textM4" id=textM4 onclick="myfunctionreturnM4()"><p style="font-size:30px"><font color="FFFFFF">Zo zo dat zijn grote skoomrika's.</font></center></p></div>
+    <div class = "textM5" id=textM5 onclick="myfunctionreturnM5()"><p style="font-size:30px"><font color="FFFFFF">Wow wat een groot aanbod</font></center></p></div>
+    <div class = "textM6" id=textM6 onclick="myfunctionreturnM6()"><p style="font-size:30px"><font color="FFFFFF">SKOOMRIKA'S,SKOOMRIKA'S,SKOOMRIKA'S</font></center></p></div>
+    <div class = "textM7" id=textM7 onclick="myfunctionreturnM7()"><p style="font-size:30px"><font color="FFFFFF">Ik heb al geen vrouw meer gezien sinds The Great Generalization.</font></center></p></div>
+    <div class = "textM8" id=textM8 onclick="myfunctionreturnM8()"><p style="font-size:30px"><font color="FFFFFF">Een baard is een must volgens de regels van Moorie Moorie.</font></center></p></div>
+    <div class = "textM9" id=textM9 onclick="myfunctionreturnM9()"><p style="font-size:30px"><font color="FFFFFF">Alles is zo moor.</font></center></p></div>
+  </div>
+  <div class= "inputtextbox" id="inputtextbox">
+    <div class="sBmain">
+      <div class="sBfg" id="sB01"></div>
+      <div class="sB1" id="sB02"></div>
+      <div class="sB1" id="sB03"></div>
+      <div class="sB1" id="sB04"></div>
+      <div class="sB1" id="sB05"></div>
+      <div class="sB1" id="sB06"></div>
+      <div class="sB1" id="sB07"></div>
+      <div class="sB1" id="sB08"></div>
+      <div class="sB1" id="sB09"></div>
+      <div class="sB1" id="sB10"></div>
+      <div class="sB1" id="sB11"></div>
+      <div class="sB1" id="sB12"></div>
+      <div class="sB1" id="sB13"></div>
+      <div class="sB1" id="sB14"></div>
+      <div class="sB1" id="sB15"></div>
+      <div class="sB1" id="sB16"></div>
+      <div class="sB1" id="sB17"></div>
+      <div class="sB1" id="sB18"></div>
+      <div class="sB1" id="sB19"></div>
+      <div class="sB1" id="sB20"></div>
+      <div class="sB1" id="sB21"></div>
+      <div class="sB1" id="sB22"></div>
+      <div class="sB1" id="sB23"></div>
+      <div class="sB1" id="sB24"></div>
+      <div class="sB1" id="sB25"></div>
+      <div class="sB1" id="sB26"></div>
+      <div class="sB1" id="sB27"></div>
+      <div class="sB1" id="sB28"></div>
+      <div class="sB1" id="sB29"></div>
+      <div class="sB1" id="sB30"></div>
+      <div class="sB1" id="sB31"></div>
+      <div class="sB1" id="sB32"></div>
+      <div class="sB1" id="sB33"></div>
+      <div class="sB1" id="sB34"></div>
+      <div class="sB1" id="sB35"></div>
+      <div class="sB1" id="sB36"></div>
+      <div class="sB1" id="sB37"></div>
+      <div class="sB1" id="sB38"></div>
+      <div class="sB1" id="sB39"></div>
+      <div class="sB1" id="sB40"></div>
+      <div class="sB1" id="sB41"></div>
+      <div class="sB1" id="sB42"></div>
+      <div class="sB1" id="sB43"></div>
+      <div class="sB1" id="sB44"></div>
+      <div class="sB1" id="sB45"></div>
+      <div class="sB1" id="sB46"></div>
+      <div class="sB1" id="sB47"></div>
+      <div class="sB1" id="sB48"></div>
+      <div class="sB1" id="sB49"></div>
+      <div class="sB1" id="sB50"></div>
+      <div class="sB1" id="sB51"></div>
+      <div class="sB1" id="sB52"></div>
+      <div class="sB1" id="sB53"></div>
+      <div class="sB1" id="sB54"></div>
+      <div class="sB1" id="sB55"></div>
+      <div class="sB1" id="sB56"></div>
+      <div class="sB1" id="sB57"></div>
+      <div class="sB1" id="sB58"></div>
+      <div class="sB1" id="sB59"></div>
+      <div class="sB1" id="sB60"></div>
+      <div class="sB1" id="sB61"></div>
+      <div class="sB1" id="sB62"></div>
+      <div class="sB1" id="sB63"></div>
+      <div class="sB1" id="sB64"></div>
+      <div class="sB1" id="sB65"></div>
+      <div class="sB1" id="sB66"></div>
+      <div class="sB1" id="sB67"></div>
+      <div class="sB1" id="sB68"></div>
+      <div class="sB1" id="sB69"></div>
+      <div class="sB1" id="sB70"></div>
+      <div class="sB1" id="sB71"></div>
+      <div class="sB1" id="sB72"></div>
+      <div class="sB1" id="sB73"></div>
+      <div class="sB1" id="sB74"></div>
+      <div class="sB1" id="sB75"></div>
+      <div class="sB1" id="sB76"></div>
+      <div class="sB1" id="sB77"></div>
+      <div class="sB1" id="sB78"></div>
+      <div class="sB1" id="sB79"></div>
+      <div class="sB1" id="sB80"></div>
+      <div class="sB1" id="sB81"></div>
+      <div class="sB1" id="sB82"></div>
+      <div class="sB1" id="sB83"></div>
+      <div class="sB1" id="sB84"></div>
+      <div class="sB1" id="sB85"></div>
+      <div class="sB1" id="sB86"></div>
+      <div class="sB1" id="sB87"></div>
+      <div class="sB1" id="sB88"></div>
+      <div class="sB1" id="sB89"></div>
+      <div class="sB1" id="sB90"></div>
+      <div class="sB1" id="sB91"></div>
+      <div class="sB1" id="sB92"></div>
+      <div class="sB1" id="sB93"></div>
+      <div class="sB1" id="sB94"></div>
+      <div class="sB1" id="sB95"></div>
+      <div class="sB1" id="sB96"></div>
+      <div class="sB1" id="sB97"></div>
+      <div class="sB1" id="sB98"></div>
+      <div class="sB1" id="sB99"></div>
+      <div class="sB1" id="sB100"></div>
+      <div class="sB1" id="sB101"></div>
+      <div class="sB1" id="sB102"></div>
+      <div class="sB1" id="sB103"></div>
+      <div class="sB1" id="sB104"></div>
+      <div class="sB1" id="sB105"></div>
+      <div class="sB1" id="sB106"></div>
+      <div class="sB1" id="sB107"></div>
+      <div class="sB1" id="sB108"></div>
+      <div class="sB1" id="sB109"></div>
+      <div class="sB1" id="sB110"></div>
+      <div class="sB1" id="sB111"></div>
+      <div class="sB1" id="sB112"></div>
+      <div class="sB1" id="sB113"></div>
+      <div class="sB1" id="sB114"></div>
+      <div class="sB1" id="sB115"></div>
+      <div class="sB1" id="sB116"></div>
+      <div class="sB1" id="sB117"></div>
+      <div class="sB1" id="sB118"></div>
+      <div class="sB1" id="sB119"></div>
+      <div class="sB1" id="sB120"></div>
+      <div class="sB1" id="sB121"></div>
+      <div class="sB1" id="sB122"></div>
+      <div class="sB1" id="sB123"></div>
+      <div class="sB1" id="sB124"></div>
+      <div class="sB1" id="sB125"></div>
+      <div class="sB1" id="sB126"></div>
+      <div class="sB1" id="sB127"></div>
+      <div class="sB1" id="sB128"></div>
+      <div class="sB1" id="sB129"></div>
+      <div class="sB1" id="sB130"></div>
+      <div class="sB1" id="sB131"></div>
+      <div class="sB1" id="sB132"></div>
+      <div class="sB1" id="sB133"></div>
+      <div class="sB1" id="sB134"></div>
+      <div class="sB1" id="sB135"></div>
+      <div class="sB1" id="sB136"></div>
+      <div class="sB1" id="sB137"></div>
+      <div class="sB1" id="sB138"></div>
+      <div class="sB1" id="sB139"></div>
+      <div class="sB1" id="sB140"></div>
+      <div class="sB1" id="sB141"></div>
+      <div class="sB1" id="sB142"></div>
+      <div class="sB1" id="sB143"></div>
+      <div class="sB1" id="sB144"></div>
+      <div class="sB1" id="sB145"></div>
+      <div class="sB1" id="sB146"></div>
+      <div class="sB1" id="sB147"></div>
+      <div class="sB1" id="sB148"></div>
+      <div class="sB1" id="sB149"></div>
+      <div class="sB1" id="sB150"></div>
+      <div class="sB1" id="sB151"></div>
+      <div class="sB1" id="sB152"></div>
+      <div class="sB1" id="sB153"></div>
+      <div class="sB1" id="sB154"></div>
+      <div class="sB1" id="sB155"></div>
+      <div class="sB1" id="sB156"></div>
+      <div class="sB1" id="sB157"></div>
+      <div class="sB1" id="sB158"></div>
+      <div class="sB1" id="sB159"></div>
+      <div class="sB1" id="sB160"></div>
+      <div class="sB1" id="sB161"></div>
+      <div class="sB1" id="sB162"></div>
+      <div class="sB1" id="sB163"></div>
+      <div class="sB1" id="sB164"></div>
+      <div class="sB1" id="sB165"></div>
+      <div class="sB1" id="sB166"></div>
+      <div class="sB1" id="sB167"></div>
+      <div class="sB1" id="sB168"></div>
+      <div class="sB1" id="sB169"></div>
+      <div class="sB1" id="sB170"></div>
+      <div class="sB1" id="sB171"></div>
+      <div class="sB1" id="sB172"></div>
+      <div class="sB1" id="sB173"></div>
+      <div class="sB1" id="sB174"></div>
+      <div class="sB1" id="sB175"></div>
+      <div class="sB1" id="sB176"></div>
+      <div class="sB1" id="sB177"></div>
+      <div class="sB1" id="sB178"></div>
+      <div class="sB1" id="sB179"></div>
+      <div class="sB1" id="sB180"></div>
+      <div class="sB1" id="sB181"></div>
+      <div class="sB1" id="sB182"></div>
+      <div class="sB1" id="sB183"></div>
+      <div class="sB1" id="sB184"></div>
+      <div class="sB1" id="sB185"></div>
+      <div class="sB1" id="sB186"></div>
+      <div class="sB1" id="sB187"></div>
+      <div class="sB1" id="sB188"></div>
+      <div class="sB1" id="sB189"></div>
+      <div class="sB1" id="sB190"></div>
+      <div class="sB1" id="sB191"></div>
+      <div class="sB1" id="sB192"></div>
+      <div class="sB1" id="sB193"></div>
+      <div class="sB1" id="sB194"></div>
+      <div class="sB1" id="sB195"></div>
+      <div class="sB1" id="sB196"></div>
+      <div class="sB1" id="sB197"></div>
+      <div class="sB1" id="sB198"></div>
+      <div class="sB1" id="sB199"></div>
+      <div class="sB1" id="sB200"></div>
+      <div class="sB1" id="sB201"></div>
+      <div class="sB1" id="sB202"></div>
+      <div class="sB1" id="sB203"></div>
+      <div class="sB1" id="sB204"></div>
+      <div class="sB1" id="sB205"></div>
+      <div class="sB1" id="sB206"></div>
+      <div class="sB1" id="sB207"></div>
+      <div class="sB1" id="sB208"></div>
+      <div class="sB1" id="sB209"></div>
+      <div class="sB1" id="sB210"></div>
+      <div class="sB1" id="sB211"></div>
+      <div class="sB1" id="sB212"></div>
+      <div class="sB1" id="sB213"></div>
+      <div class="sB1" id="sB214"></div>
+      <div class="sB1" id="sB215"></div>
+      <div class="sB1" id="sB216"></div>
+      <div class="sB1" id="sB217"></div>
+      <div class="sB1" id="sB218"></div>
+      <div class="sB1" id="sB219"></div>
+      <div class="sB1" id="sB220"></div>
+      <div class="sB1" id="sB221"></div>
+      <div class="sB1" id="sB222"></div>
+      <div class="sB1" id="sB223"></div>
+      <div class="sB1" id="sB224"></div>
+      <div class="sB1" id="sB225"></div>
+      <div class="sB1" id="sB226"></div>
+      <div class="sB1" id="sB227"></div>
+      <div class="sB1" id="sB228"></div>
+      <div class="sB1" id="sB229"></div>
+      <div class="sB1" id="sB230"></div>
+      <div class="sB1" id="sB231"></div>
+      <div class="sB1" id="sB232"></div>
+      <div class="sB1" id="sB233"></div>
+      <div class="sB1" id="sB234"></div>
+      <div class="sB1" id="sB235"></div>
+      <div class="sB1" id="sB236"></div>
+      <div class="sB1" id="sB237"></div>
+      <div class="sB1" id="sB238"></div>
+      <div class="sB1" id="sB239"></div>
+      <div class="sB1" id="sB240"></div>
+      <div class="sB1" id="sB241"></div>
+      <div class="sB1" id="sB242"></div>
+      <div class="sB1" id="sB243"></div>
+      <div class="sB1" id="sB244"></div>
+      <div class="sB1" id="sB245"></div>
+      <div class="sB1" id="sB246"></div>
+      <div class="sB1" id="sB247"></div>
+      <div class="sB1" id="sB248"></div>
+      <div class="sB1" id="sB249"></div>
+      <div class="sB1" id="sB250"></div>
+      <div class="sB1" id="sB251"></div>
+      <div class="sB1" id="sB252"></div>
+      <div class="sB1" id="sB253"></div>
+      <div class="sB1" id="sB254"></div>
+      <div class="sB1" id="sB255"></div>
+      <div class="sB1" id="sB256"></div>
+      <div class="sB1" id="sB257"></div>
+      <div class="sB1" id="sB258"></div>
+      <div class="sB1" id="sB259"></div>
+      <div class="sB1" id="sB260"></div>
+      <div class="sB1" id="sB261"></div>
+      <div class="sB1" id="sB262"></div>
+      <div class="sB1" id="sB263"></div>
+      <div class="sB1" id="sB264"></div>
+      <div class="sB1" id="sB265"></div>
+      <div class="sB1" id="sB266"></div>
+      <div class="sB1" id="sB267"></div>
+      <div class="sB1" id="sB268"></div>
+      <div class="sB1" id="sB269"></div>
+      <div class="sB1" id="sB270"></div>
+      <div class="sB1" id="sB271"></div>
+      <div class="sB1" id="sB272"></div>
+      <div class="sB1" id="sB273"></div>
+      <div class="sB1" id="sB274"></div>
+      <div class="sB1" id="sB275"></div>
+      <div class="sB1" id="sB276"></div>
+      <div class="sB1" id="sB277"></div>
+      <div class="sB1" id="sB278"></div>
+      <div class="sB1" id="sB279"></div>
+      <div class="sB1" id="sB280"></div>
+      <div class="sB1" id="sB281"></div>
+      <div class="sB1" id="sB282"></div>
+      <div class="sB1" id="sB283"></div>
+      <div class="sB1" id="sB284"></div>
+      <div class="sB1" id="sB285"></div>
+      <div class="sB1" id="sB286"></div>
+      <div class="sB1" id="sB287"></div>
+      <div class="sB1" id="sB288"></div>
+      <div class="sB1" id="sB289"></div>
+      <div class="sB1" id="sB290"></div>
+      <div class="sB1" id="sB291"></div>
+      <div class="sB1" id="sB292"></div>
+      <div class="sB1" id="sB293"></div>
+      <div class="sB1" id="sB294"></div>
+      <div class="sB1" id="sB295"></div>
+      <div class="sB1" id="sB296"></div>
+      <div class="sB1" id="sB297"></div>
+      <div class="sB1" id="sB298"></div>
+      <div class="sB1" id="sB299"></div>
+      <div class="sB1" id="sB300"></div>
+      <div class="sB1" id="sB301"></div>
+      <div class="sB1" id="sB302"></div>
+      <div class="sB1" id="sB303"></div>
+      <div class="sB1" id="sB304"></div>
+      <div class="sB1" id="sB305"></div>
+      <div class="sB1" id="sB306"></div>
+      <div class="sB1" id="sB307"></div>
+      <div class="sB1" id="sB308"></div>
+      <div class="sB1" id="sB309"></div>
+      <div class="sB1" id="sB310"></div>
+      <div class="sB1" id="sB311"></div>
+      <div class="sB1" id="sB312"></div>
+      <div class="sB1" id="sB313"></div>
+      <div class="sB1" id="sB314"></div>
+      <div class="sB1" id="sB315"></div>
+      <div class="sB1" id="sB316"></div>
+      <div class="sB1" id="sB317"></div>
+      <div class="sB1" id="sB318"></div>
+      <div class="sB1" id="sB319"></div>
+      <div class="sB1" id="sB320"></div>
+      <div class="sB1" id="sB321"></div>
+      <div class="sB1" id="sB322"></div>
+      <div class="sB1" id="sB323"></div>
+      <div class="sB1" id="sB324"></div>
+      <div class="sB1" id="sB325"></div>
+      <div class="sB1" id="sB326"></div>
+      <div class="sB1" id="sB327"></div>
+      <div class="sB1" id="sB328"></div>
+      <div class="sB1" id="sB329"></div>
+      <div class="sB1" id="sB330"></div>
+      <div class="sB1" id="sB331"></div>
+      <div class="sB1" id="sB332"></div>
+      <div class="sB1" id="sB333"></div>
+      <div class="sB1" id="sB334"></div>
+      <div class="sB1" id="sB335"></div>
+      <div class="sB1" id="sB336"></div>
+      <div class="sB1" id="sB337"></div>
+      <div class="sB1" id="sB338"></div>
+      <div class="sB1" id="sB339"></div>
+      <div class="sB1" id="sB340"></div>
+      <div class="sB1" id="sB341"></div>
+      <div class="sB1" id="sB342"></div>
+      <div class="sB1" id="sB343"></div>
+      <div class="sB1" id="sB344"></div>
+      <div class="sB1" id="sB345"></div>
+      <div class="sB1" id="sB346"></div>
+      <div class="sB1" id="sB347"></div>
+      <div class="sB1" id="sB348"></div>
+      <div class="sB1" id="sB349"></div>
+      <div class="sB1" id="sB350"></div>
+      <div class="sB1" id="sB351"></div>
+      <div class="sB1" id="sB352"></div>
+      <div class="sB1" id="sB353"></div>
+      <div class="sB1" id="sB354"></div>
+      <div class="sB1" id="sB355"></div>
+      <div class="sB1" id="sB356"></div>
+      <div class="sB1" id="sB357"></div>
+      <div class="sB1" id="sB358"></div>
+      <div class="sB1" id="sB359"></div>
+      <div class="sB1" id="sB360"></div>
+      <div class="sB1" id="sB361"></div>
+      <div class="sB1" id="sB362"></div>
+      <div class="sB1" id="sB363"></div>
+      <div class="sB1" id="sB364"></div>
+      <div class="sB1" id="sB365"></div>
+      <div class="sB1" id="sB366"></div>
+      <div class="sB1" id="sB367"></div>
+      <div class="sB1" id="sB368"></div>
+      <div class="sB1" id="sB369"></div>
+      <div class="sB1" id="sB370"></div>
+      <div class="sB1" id="sB371"></div>
+      <div class="sB1" id="sB372"></div>
+      <div class="sB1" id="sB373"></div>
+      <div class="sB1" id="sB374"></div>
+      <div class="sB1" id="sB375"></div>
+      <div class="sB1" id="sB376"></div>
+      <div class="sB1" id="sB377"></div>
+      <div class="sB1" id="sB378"></div>
+      <div class="sB1" id="sB379"></div>
+      <div class="sB1" id="sB380"></div>
+      <div class="sB1" id="sB381"></div>
+      <div class="sB1" id="sB382"></div>
+      <div class="sB1" id="sB383"></div>
+      <div class="sB1" id="sB384"></div>
+      <div class="sB1" id="sB385"></div>
+      <div class="sB1" id="sB386"></div>
+      <div class="sB1" id="sB387"></div>
+      <div class="sB1" id="sB388"></div>
+      <div class="sB1" id="sB389"></div>
+      <div class="sB1" id="sB390"></div>
+      <div class="sB1" id="sB391"></div>
+      <div class="sB1" id="sB392"></div>
+      <div class="sB1" id="sB393"></div>
+      <div class="sB1" id="sB394"></div>
+      <div class="sB1" id="sB395"></div>
+      <div class="sB1" id="sB396"></div>
+      <div class="sB1" id="sB397"></div>
+      <div class="sB1" id="sB398"></div>
+      <div class="sB1" id="sB399"></div>
+      <div class="sB1" id="sB400"></div>
+      <div class="sfru" id="sfru" onclick="sreset()"></div>
+  </div>
+</div>
+<div class = "uyhcode" id="uyhcode"><p style="font-size:30px"><font color="FFFFFF">44444444444444</font></center></p></div>
+</body>
+</html>

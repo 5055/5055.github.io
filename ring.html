@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> informatica ofzo </title>
+  <link href="ring.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="ring.js"></script>
+  <script>
+$(document).ready(function(){
+    $("div12").mousemove(function(){
+        var x = $("div42").position();
+        var xmouse= event.clientX;
+        var ymouse = event.clientY;
+        xcoords= x.left - xmouse;
+        ycoords= x.top - ymouse;
+        xcoordspx=xcoords+"px";
+        var coords ="Top position: " + ycoords + " Left position: " + xcoords;
+        if (xcoords<-300){
+          document.getElementById("FtMprooi").style.left =Math.round(x.left+2 )+'px';
+        }
+        else if(xcoords<0){
+          document.getElementById("FtMprooi").style.left =Math.round(x.left-8 )+'px';
+        }
+        if(ycoords<-300){
+        document.getElementById("FtMprooi").style.top =Math.round(x.top+2 )+'px';
+        }
+        else if(ycoords<0){
+        document.getElementById("FtMprooi").style.top =Math.round(x.top-8 )+'px';
+        }
+        if(xcoords>450){
+          document.getElementById("FtMprooi").style.left =Math.round(x.left-2 )+'px';
+        }
+        else if(xcoords>0){
+          document.getElementById("FtMprooi").style.left =Math.round(x.left+8 )+'px';
+        }
+        if(ycoords>400){
+        document.getElementById("FtMprooi").style.top =Math.round(x.top-2 )+'px';
+        }
+        else if(ycoords>0){
+        document.getElementById("FtMprooi").style.top =Math.round(x.top+8 )+'px';
+        }
+    });
+});
+function stopit(){
+  document.getElementById("FtMveld").style.display = "none";
+  document.getElementById("FtMprooi").style.display = "none";
+  document.getElementById("textcote").style.display = "block";
+}
+</script>
+</head>
+<body onload="myfunctionload()">
+  <div class ="stad"
+   id="stad">
+           <div class = "stadhuisbinnen" id="stadhuisbinnen" onclick="myFunctionstadhuisbinnen()"></div>
+    <div class="richtingBalk">
+      <a>
+        <img src="richting balk.png" height="100%" width="100%">
+        </a>
+        <div class="minimap"  onclick="myFunctionkaart()">
+          <a>
+            <img src="minimap.png" height="100%" width="100%">
+            </a>
+          </div>
+        <div class="ring3" onclick="myFunctionwoonwijken()"  href="ring3.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">woonwijken</font></center></p>
+        </div>
+
+        <div class="ring2" onclick="myFunctionmarkt()" >
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">markt</font></center></p>
+        </div>
+        <div class="ring1" onclick="myFunctionstadhuis()"  href="ring1.html">
+          <center><p style="font-size:30px; top: 50%;transform: translateY(-25%);"><font color="783018">stadhuis</font></center></p></div>
+          <div class= "kaartmessage" id="kaartmessage"><center><p style="font-size:30px"><font color="FFFFFF">Are you sure about leaving</font></p>
+            <a href="kaart.html" class= "yeahbutton">
+              <center><p style="font-size:30px"><font color="White">Yeah</font></center></p>
+            </a>
+            <div class= "nahbutton" onclick="myFunctionkaart()">
+                <center><p style="font-size:30px"><font color="White">Nah</font></center></p>
+            </div>
+          </center>
+        </div>
+
+    </div>
+      <div class="stadhuisbuiten"
+        id="stadhuisbuiten">
+        <div class="ringM1" onclick="myFunctionM1()"></div>
+        <div class="ringM2" onclick="myFunctionM2()"></div>
+        <div class="ringM3" onclick="myFunctionM3()"></div>
+      </div>
+      <div class="marktbuiten"
+        id="marktbuiten">
+        <div class="ringM4" onclick="myFunctionM4()"></div>
+      </div>
+      <div class="woonwijkenbuiten"
+        id="woonwijkenbuiten">
+        <div class="ringM7" onclick="myFunctionM7()"></div>
+        </div>
+  </div>
+  <div class ="text">
+    <div class = "textM1" id=textM1 onclick="myfunctionreturnM1()"><p style="font-size:30px"><font color="FFFFFF">Rust in vrede Hendrik.</font></center></p></div>
+    <div class = "textM2" id=textM2 onclick="myfunctionreturnM2()"><p style="font-size:30px"><font color="FFFFFF">De Forgotten ashes eerder The Province of Edward genoemd, was eerst een van de meest succesvolste provincies tot The Great Fire.</font></center></p></div>
+    <div class = "textM3" id=textM3 onclick="myfunctionreturnM3()"><p style="font-size:30px"><font color="FFFFFF">Waarom moest Hendrik zo snel al overlijden.</font></center></p></div>
+    <div class = "textM4" id=textM4 onclick="myfunctionreturnM4()"><p style="font-size:30px"><font color="FFFFFF">Skoomrika's zijn heerlijk om te gebruiken als je je nederig voelt, het pept je echt op. Het werkt hhet best als ze nog groen zijn. Zoals je ziet zijn ze in perfecte staat en is er genoeg voor iedereen.</font></center></p></div>
+    <div class = "textM5" id=textM5 onclick="myfunctionreturnM5()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM6" id=textM6 onclick="myfunctionreturnM6()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM7" id=textM7 onclick="myfunctionreturnM7()"><p style="font-size:30px"><font color="FFFFFF">Heilige Moorie Moorie hoor mij aan, ik heb uw binaire krachten nodig om te overleven. De geesten van de Forgotten Ashes achtervolgen mij!</font></center></p></div>
+    <div class = "textM8" id=textM8 onclick="myfunctionreturnM8()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+    <div class = "textM9" id=textM9 onclick="myfunctionreturnM9()"><p style="font-size:30px"><font color="FFFFFF">Het Gronim vs Gernim conflict duurt nu al veel te lang. Kan het niet eens stoppen na 312 jaar.</font></center></p></div>
+  </div>
+  <div123 class="FtM" id="FtM">
+  <div12 class="FtMveld"id="FtMveld"></div12>
+  <div42 class="FtMprooi"id="FtMprooi"onclick="stopit()"></div42>
+</div123>
+  <div class = "textM1" id="textcote" ><p style="font-size:30px"><font color="FFFFFF">47 65 65 6e 20 6e 75 74 74 69 67 65 20 63 6f 64 65 20 3a 29</font></center></p></div>
+</body>
+</html>

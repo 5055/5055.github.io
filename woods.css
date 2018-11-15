@@ -1,0 +1,412 @@
+html {
+  overflow:hidden;
+}a {text-decoration: none; }
+.woods1{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 23.4%;
+  cursor: pointer;
+
+  }
+.woods2{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 2.3%;
+  cursor: pointer;
+
+}
+.woods3{
+  height: 33%;
+  width: 20.5%;
+  border-radius: 18px;
+  position: absolute;
+  top: 49.5%;
+  left: 44.5%;
+  cursor: pointer;
+
+}
+.stad{
+  display: block;
+}
+.stadhuisbuiten{
+  display: block;
+}
+.marktbuiten{
+  display: none;
+}
+.woonwijkenbuiten{
+  display: none;
+}
+.woodsM1{
+  height: 15.5%;
+  width: 6%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 58.5%;
+  left: 14.5%;
+  cursor: pointer;
+}
+.woodsM2{
+  height: 15.5%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 69%;
+  left: 38%;
+  cursor: pointer;
+
+}
+.woodsM3{
+  height: 15.5%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 67.5%;
+  left: 64.5%;
+  cursor: pointer;
+
+}
+.woodsM4{
+  height: 22.5%;
+  width: 7%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 62%;
+  left: 51.5%;
+  cursor: pointer;
+
+}
+.woodsM5{
+  height: 24.5%;
+  width: 7%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 60%;
+  left: 35.5%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.woodsM6{
+  height: 25.5%;
+  width: 6%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 60%;
+  left: 66.7%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.woodsM7{
+  height: 16.5%;
+  width: 5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 66%;
+  left: 53%;
+  cursor: pointer;
+
+}
+.woodsM8{
+  height: 12.5%;
+  width: 4%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 74%;
+  left: 64%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.woodsM9{
+  height: 8.5%;
+  width: 2.5%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 62%;
+  left: 94.5%;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+
+}
+.textM1{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM2{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM3{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM4{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM5{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM6{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM7{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM8{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.textM9{
+  height: 40%;
+  width: 30%;
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.stadhuisbinnen{
+  height: 50%;
+  width: 25%;
+  border-radius: 18px;
+  border: 5px hidden #FFF;
+  position: absolute;
+  top: 20%;
+  left: 36.125%;
+  cursor: pointer;
+}
+.richtingBalk{
+  height: 30%;
+  width: 100%;
+  position:absolute;
+  top: 70%;
+  left: 0%;
+
+
+}
+.minimap{
+  height: 80%;
+  width: 12%;
+  border: 0px #FFF;
+  position:absolute;
+  top: 20%;
+  right: 0%;
+  background-color: rgba(030,030,030,0.9);
+}
+.kaartmessage{
+  height: 80%;
+  width: 60%;
+  position:absolute;
+  top: -120%;
+  right: 20%;
+  background-color: rgba(030,030,030,0.9);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  display: none;
+}
+.yeahbutton{
+  height: 40%;
+  width: 20%;
+  position:absolute;
+  top: 70%;
+  right: 55%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.nahbutton{
+  height: 40%;
+  width: 20%;
+  position:absolute;
+  top: 70%;
+  left: 55%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.inputtextbox{
+  height: 99%;
+  width: 20%;
+  position:absolute;
+  top: 0%;
+  right: 0%;
+  background-color: rgba(030,030,030,1);
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  display: none;
+}
+.input{
+  height: 20%;
+  width: 100%;
+  position:absolute;
+  top: 70%;
+  left: 0%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.enterinput{
+  height: 10%;
+  width: 100%;
+  position:absolute;
+  top: 90%;
+  left: 0%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+}
+.textinstadhuis1{
+
+}
+.naar_buiten{
+  height: 10%;
+  width: 100%;
+  position:absolute;
+  top: 90%;
+  right: 100%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+  cursor: pointer;
+  background-color: rgba(030,030,030,1);
+}
+.BkE_file{
+  display: none;
+  top:30%;
+  left:60%;
+  height: 50%;
+  width: 25%;
+  position: absolute;
+    }
+  .BkE{
+    top:0%;
+    left:25%;
+    height: 75%;
+    width: 75%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .BkEbutton{
+    background-color: rgba(230,230,230,0.9);
+    position: absolute;
+    height: 32%;
+    width: 32%;
+  }
+  .BkEreset{
+    background-color: rgba(030,030,030,0.9);
+    position: absolute;
+    top:85%;
+    left:35%;
+    height: 20%;
+    width: 52%;
+    border-radius: 12px;
+    border: 5px solid #FFF;
+  }
+  .BkEwin{
+    background-color: rgba(230,230,230,1);
+    position: absolute;
+    top:0%;
+    left:25%;
+    height: 75%;
+    width: 75%;
+    display: none;
+  }
+  .BkElose{
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    top:0%;
+    left:25%;
+    height: 75%;
+    width: 75%;
+    display: none;
+  }
