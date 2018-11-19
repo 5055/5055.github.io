@@ -201,5 +201,5 @@ function othername() {
     document.body.style.backgroundSize = "100% 100%";
 
         stad.style.display =  "block" ;
-        inputtextbox.style.display = "none";
+        FtM.style.display = "none";
   }

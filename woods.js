@@ -202,7 +202,7 @@ function othername() {
     document.body.style.backgroundSize = "100% 100%";
 
         stad.style.display =  "block" ;
-        inputtextbox.style.display = "none";
+        BkE_file.style.display = "none";
   }
   function BkEbuttonone(){
     if(BkEq ==0){

@@ -380,3 +380,13 @@ html {
   border: 15px solid #FFF;
   cursor: pointer;
 }
+.naar_buiten{
+  background-color: rgba(030,030,030,0.9);
+  position: absolute;
+  top:80%;
+  left:0%;
+  height: 20%;
+  width: 20%;
+  border-radius: 12px;
+  border: 5px solid #FFF;
+}

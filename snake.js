@@ -47,6 +47,12 @@ function qw(){
   sfru.style.top = rfru;
   sfru.style.left = xfru;
 }
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 27) {
+        naar_buiten();
+    }
+};
 window.addEventListener("keydown", function (event) {
   if (event.defaultPrevented) {
     return; // Do nothing if the event was already processed
