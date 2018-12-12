@@ -26,6 +26,20 @@ function othername() {
       note5 =1
       NotesComp();
     }
+    else if(input =="42"){
+      block1.style.backgroundColor = "rgba(0,255,0,1)";
+      note1 =1
+      block2.style.backgroundColor = "rgba(0,255,0,1)";
+      note2 =1
+      block3.style.backgroundColor = "rgba(0,255,0,1)";
+      note3 =1
+      block4.style.backgroundColor = "rgba(0,255,0,1)";
+      note4 =1
+      block5.style.backgroundColor = "rgba(0,255,0,1)";
+      note5 =1
+      NotesComp();
+
+    }
 }
 function NotesComp(){
   if(note1 ==1 && note2 ==1 && note3 == 1 && note4 ==1 && note5 ==1){
