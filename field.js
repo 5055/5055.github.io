@@ -183,10 +183,9 @@ function myfunctionreturnM9() {
 function othername() {
     var input = document.getElementById("userInput").value;
     if (input =="77854256775543788765423566435678765455687564456798653567898654322245677654223567765323356543355688765454675456776757754346633134666542323"){
-      document.body.style.background = "url('fieldM78.png')no-repeat fixed";
-      document.body.style.backgroundSize = "100% 100%";
       inputtextbox.style.display = "block";
-      document.getElementById("inputtextbox").innerHTML = "68 74 74 70 73 3a 2f 2f 6e 6c 2e 77 69 6b 69 70 65 64 69 61 2e 6f 72 67 2f 77 69 6b 69 2f 42 65 76 65 72 5f 28 64 69 65 72 29";
+      document.getElementById("inputtextbox2").innerHTML = "68 74 74 70 73 3a 2f 2f 6e 6c 2e 77 69 6b 69 70 65 64 69 61 2e 6f 72 67 2f 77 69 6b 69 2f 42 65 76 65 72 5f 28 64 69 65 72 29";
+      inputtextbox2.style.display =  "block" ;
     }
 }
   function myFunctionstadhuisbinnen() {
@@ -203,4 +202,5 @@ function othername() {
 
         stad.style.display =  "block" ;
         inputtextbox.style.display = "none";
+        inputtextbox2.style.display =  "none" ;
   }
