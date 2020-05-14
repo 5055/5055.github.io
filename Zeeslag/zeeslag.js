@@ -461,7 +461,7 @@ function fireTorpedo(e) { // het schieten op de boten van de tegenstander
       gameBoard[row][col] = 4;
       hitCount++;
       if (hitCount == 17) {
-        alert("Je hebt gewennona");
+        alert("Je hebt gewonnen");
         side= 2;
         win++;
         document.getElementById("win,loss").innerHTML = "Je hebt " + win + " keer gewonnen en " + loss+ " keer verloren."
@@ -470,19 +470,19 @@ function fireTorpedo(e) { // het schieten op de boten van de tegenstander
       }
       else{
         if(gameBoard3[row][col]==15 && counthit[4] == 5){
-          alert("Je buut 5 geraakt");
+          alert("Boot 5 gezonken");
         }
         if(gameBoard3[row][col]==24 && counthit[3] == 4){
-          alert("Je buut 4 geraakt");
+          alert("Boot 4 gezonken");
         }
         if(gameBoard3[row][col]==33 && counthit[2] == 3){
-          alert("Je buut 3 geraakt");
+          alert("Boot 3 gezonken");
         }
         if(gameBoard3[row][col]==43 && counthit[1] == 3){
-          alert("Je buut 3 geraakt");
+          alert("Boot 3 gezonken");
         }
         if(gameBoard3[row][col]==52 && counthit[0] == 2){
-          alert("Je buut 2 geraakt");
+          alert("Boot 2 gezonken");
         }
         side= 1;
         player2();
